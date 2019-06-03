@@ -29,6 +29,7 @@ public class HashMapMainTest extends HashMapTestData{
 		Select select=new Select(driver.findElement(By.name("slctMonth")));
 		select.selectByVisibleText("June");
 		System.out.println("june Month select from calender successfully");
+		//added comment section
 		
 	}
 
